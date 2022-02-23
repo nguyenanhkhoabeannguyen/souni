@@ -62,7 +62,7 @@ html, body
 }
 
 .bg-claimnft {
-  background-image: url(/image/background/Asset2.png);
+  background-image: url(../image/background/Asset2.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 170px;
@@ -80,7 +80,7 @@ html, body
 /*Không gian character*/
 
 .character {
-  background-image: url(/image/background/Character_Bg\ 10.png);
+  background-image: url(../image/background/Character_Bg\ 10.png);
   padding-bottom: 10px;
 }
 
@@ -92,7 +92,7 @@ html, body
 /*PLAY TO EARN*/
 
 .playtoearn {
-  background-image: url(/image/background/Asset\ 3\ 2.png);
+  background-image: url(../image/background/Asset\ 3\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -151,7 +151,7 @@ html, body
 /*TRADE AND BIT*/
 
 .tradeandbid {
-  background-image: url(/image/background/Bide_2_3\ 1.png);
+  background-image: url(../image/background/Bide_2_3\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -70px;
@@ -172,7 +172,7 @@ html, body
 /* advantagefeatures */
 
 .advantagefeatures {
-  background-image: url(/image/background/Asset\ 4\ 2.png);
+  background-image: url(../image/background/Asset\ 4\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
