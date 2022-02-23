@@ -1,0 +1,229 @@
+html, body
+{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.background1{
+  position: absolute;
+  z-index: 100;
+}
+
+.background2{
+  position: absolute;
+  z-index: 90;
+}
+
+.menu_home{
+  position: relative;
+  margin-top: -850px;
+  z-index: 150;
+}
+
+.header_home{
+  position: relative;
+  z-index: 150;
+}
+
+.playbutton_home{
+  position: relative;
+  top: -70px;
+  z-index: 150;
+}
+
+/*PAGE NFT*/
+
+.claim_content{
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.claimnft_box .container .row {
+  margin-top: 130px;
+}
+
+
+.frames_one{
+  margin-top: -420px;
+}
+
+.frames_one p {
+  color: #6f6f6f;
+}
+
+.frames_one h2 {
+  color: #fff;
+}
+
+.hsovandsovihoder_videobox video{
+  width: 70%;
+}
+
+.bg-claimnft {
+  background-image: url(/image/background/Asset2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 170px;
+  background-color: #000;
+}
+
+.nft-base {
+  margin-top: 150px;
+}
+
+.btn-game-levelexperience {
+  margin-top: -60px;
+}
+
+/*Không gian character*/
+
+.character {
+  background-image: url(/image/background/Character_Bg\ 10.png);
+  padding-bottom: 10px;
+}
+
+.character-video video {
+  margin-top: -100px;
+  margin-left: 60px;
+}
+
+/*PLAY TO EARN*/
+
+.playtoearn {
+  background-image: url(/image/background/Asset\ 3\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-frames-character {
+  margin-top: -50px;  
+}
+
+.title-name-character {
+  color: #31FFDA;
+  font-size: 25px;
+}
+
+.description-character {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.opacity-img-character {
+  opacity: 0.5;
+}
+
+/*PLAY TO EARN SPACE*/
+
+.div-title-playtoearn {
+  margin-top: 80px;
+}
+
+.img-team-1-playtoearn img {
+  margin-top: -80px;
+}
+
+.title-team-1-playtoean {
+  font-size: 50px;
+  color: #44C2C7;
+  line-height: 50px;
+}
+
+.content-team-1-playtoearn {
+  padding-top: 20px;
+  color: #FFFFFF;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.img-contribute-and-gain-playtoearn img {
+  margin-top: 170px;
+  margin-bottom: 170px;
+}
+
+.contribute_and_gain_content {
+  margin-top: 170px;
+}
+
+
+/*TRADE AND BIT*/
+
+.tradeandbid {
+  background-image: url(/image/background/Bide_2_3\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -70px;
+  height: 650px;
+}
+
+.img-tradeandbid-title img {
+  margin-top: 250px;
+}
+
+.tradeandbid-content p {
+  color: #FFFFFF;
+  padding-top: 30px;
+  font-size: 23px;
+  line-height: 26px;
+}
+
+/* advantagefeatures */
+
+.advantagefeatures {
+  background-image: url(/image/background/Asset\ 4\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-advantagefeatures img {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.img-shieldbackers img {
+  margin-top: 50px;
+}
+
+.content-shieldbackers p {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+.area-logopartner img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  position: relative;
+}
+
+.area-logopartner img:hover {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transform: translateY(-9px);
+}
+
+.icon-footer {
+  margin-top: 120px;
+  margin-bottom: 130px;
+}
+
+.img-icon-footer {
+  margin-right: 45px;
+}
+
+.img-icon-footer:hover {
+  transform: translateY(-9px);
+  text-decoration: none;
+}
