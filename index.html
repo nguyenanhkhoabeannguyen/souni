@@ -13,7 +13,6 @@
     <link rel="stylesheet" type="text/css" href="css/choices.min.css"> 
 	<link rel="stylesheet" type="text/css" href="css/fontawesome-free-5.12.1-web/css/all.css">
 	<!-- JS -->
-	<script src="./js/javascript.js"></script>
 	<script src="./js/ajax_libs_jquery_3.5.1_jquery.min.js"></script>
 	<script src="./js/cdnjs_cloudflare_com_ajax_libs_popper_js_1.16.0_umd_popper_min.js"></script>
 	<script src="./js/maxcdn_bootstrapcdn_com_bootstrap_4.5.2_js_bootstrap_min.js"></script>
@@ -23,10 +22,8 @@
 </head>
 
 <body>
-
 	
 	<div class="home">
-
 		<div class="background1">
 			<video class="videohome" width="100%" height="100%" loop="true" autoplay="true">
 				<source src="video/element1.be99d1ba.webm" type="video/webm">
@@ -101,8 +98,8 @@
 			<div class="claimnft_box">
 
 				<div class="claim_content col-sm-12 mb-4">
-					<p style="font-size: 60px; font-weight: 400px;"><strong>CLAIM NFTS</strong></p>
-					<p style="font-size: 20px; font-weight: 400px; margin-top: -20px;"><strong>OPEN NFT game base on Binance Smart Chain</p></h1>
+					<p class="claimnft-title"><strong>CLAIM NFTS</strong></p>
+					<p class="claimnft-desc"><strong>OPEN NFT game base on Binance Smart Chain</p></h1>
 				</div>
 
 				<div class="container">
@@ -237,25 +234,32 @@
 	</div>
 	
 	<script>
-		let x = document.getElementsByClassName("character-img");
-		// Lặp qua các phần tử có class là character-img
-		for (let i = 0; i < x.length; i++) {
-			// Lắng nghe sự kiện click
-			// và thực hiện các lệnh khác
-			x[i].onclick = function() {
-				for (a = 1; a <= x.length; a++){
-					$('.character-num-'+i).removeClass('opacity-img-character');
-				}
-				for (b = 1; b <= x.length; b++){
-					$('.character-num-'+i).addClass('opacity-img-character');
-				}
-				this.classList.remove('opacity-img-character');
-				$('.title-name-character').html(this.getAttribute('data-title-character'));
-				$('.description-character').html(this.getAttribute('data-content-character'));
-				$("#img-video-character").attr('src', this.getAttribute('data-src-character'));
-				$("#img-video-character").attr('width', this.getAttribute('data-width'));
-			};
-		}
+		$(document).ready(function () {
+			let x = $('.character-img');
+			// Lặp qua các phần tử có class là character-img
+			for (let i = 0; i < x.length; i++) {
+				// Lắng nghe sự kiện click
+				// và thực hiện các lệnh khác
+				x[i].onclick = function() {
+
+					$('.character-img').removeClass('opacity-img-character'); //tự động gỡ class opacity-img-character của toàn bộ thẻ có class character-img
+					$('.character-img').addClass('opacity-img-character'); //sau đó thêm class opacity-img-character của toàn bộ thẻ có class character-img
+					
+					$(this).removeClass('opacity-img-character'); //Sau đó gỡ bỏ class opacity-img-character của cái hình vừa ấn vào để sáng lên
+					
+					$('.title-name-character').html($(this).attr('data-title-character'));
+					$('.description-character').html($(this).attr('data-content-character'));
+					$("#img-video-character").attr('src', $(this).attr('data-src-character'));
+					$("#img-video-character").attr('width', $(this).attr('data-width'));
+					
+					// this.classList.remove('opacity-img-character'); --javascript
+					// $('.title-name-character').html(this.getAttribute('data-title-character')); --javascript
+					// $('.description-character').html(this.getAttribute('data-content-character')); --javascript
+					// $("#img-video-character").attr('src', this.getAttribute('data-src-character')); --javascript
+					// $("#img-video-character").attr('width', this.getAttribute('data-width')); --javascript
+				};
+			}
+		});
 	</script>
 
 	<div class="playtoearn">
