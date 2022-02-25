@@ -83,16 +83,24 @@ html, body
 }
 
 
-.frames_one{
+.frames_one, .frames_two, .frames_three{
   margin-top: -420px;
 }
 
-.frames_one p {
+.frames_one p, .frames_two p, .frames_three p {
   color: #6f6f6f;
 }
 
-.frames_one h2 {
+.frames_one h2, .frames_two h2, .frames_three h2 {
   color: #fff;
+}
+
+.frames_one_content p, .frames_two_content p, .frames_three_content p {
+  font-size: 16.18px;
+}
+
+.frames_one_desc p, .frames_two_desc p, .frames_three_desc p {
+  font-size: 20px;
 }
 
 .hsovandsovihoder_videobox video{
