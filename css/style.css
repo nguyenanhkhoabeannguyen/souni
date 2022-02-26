@@ -59,6 +59,39 @@ html, body
   z-index: 150;
 }
 
+/*hover hiện div của icon tele header*/
+.icontelegram-header {
+  cursor: pointer;
+}
+
+.navbar-telegram {
+  display: none !important;
+  margin-top: -40px;
+  float: right;
+  margin-right: 140px;
+}
+
+.navbar-telegram .form-inline {
+  background-image: url(../image/Rectangle21.png);
+  width: 190px;
+  height: 260px;
+}
+
+.navbar-telegram ul li {
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.icontelegram-header:hover + .navbar-telegram {
+  display: block !important;
+  position: absolute;
+  float: right;
+  top: 100px;
+  right: -8px;
+}
+/*END hover hiện div của icon tele header*/
+
+
 /*PAGE NFT*/
 
 .claim_content{
