@@ -29,18 +29,21 @@ html, body
   position: absolute;
   z-index: 100;
   width: 100%;
+  top: 0;
 }
 
 .background2{
   position: absolute;
   z-index: 90;
   width: 100%;
+  top: 0;
 }
 
 .background3 {
   position: absolute;
   z-index: 80;
   width: 100%;
+  top: 0;
 }
 
 .menu_home{
