@@ -321,6 +321,7 @@
 	</div>
 	
 	<script>
+		//Xem thêm bài viết này để tránh code dư thừa -- https://code.tutsplus.com/tutorials/14-helpful-jquery-tricks-notes-and-best-practices--net-14405
 		$(document).ready(function () {
 			let x = $('.character-img');
 			// Lặp qua các phần tử có class là character-img
@@ -329,15 +330,17 @@
 				// và thực hiện các lệnh khác
 				x[i].onclick = function() {
 
-					$('.character-img').removeClass('opacity-img-character'); //tự động gỡ class opacity-img-character của toàn bộ thẻ có class character-img
-					$('.character-img').addClass('opacity-img-character'); //sau đó thêm class opacity-img-character của toàn bộ thẻ có class character-img
+					$('.character-img')
+						.removeClass('opacity-img-character') //tự động gỡ class opacity-img-character của toàn bộ thẻ có class character-img
+						.addClass('opacity-img-character'); //sau đó thêm class opacity-img-character của toàn bộ thẻ có class character-img
 					
 					$(this).removeClass('opacity-img-character'); //Sau đó gỡ bỏ class opacity-img-character của cái hình vừa ấn vào để sáng lên
 					
 					$('.title-name-character').html($(this).attr('data-title-character'));
 					$('.description-character').html($(this).attr('data-content-character'));
-					$("#img-video-character").attr('src', $(this).attr('data-src-character'));
-					$("#img-video-character").attr('width', $(this).attr('data-width'));
+					$("#img-video-character")
+						.attr('src', $(this).attr('data-src-character'))
+						.attr('width', $(this).attr('data-width'));
 					$(".character ").css("background-image", "url(" + $(this).attr('data-background') + ")"); //Thay đổi background khi thay đổi nhân vật
 
 					// this.classList.remove('opacity-img-character'); --javascript
