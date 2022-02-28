@@ -70,7 +70,7 @@ html, body
 
 .navbar-telegram {
   display: none !important;
-  margin-top: -40px;
+  margin-top: -44px;
   float: right;
   margin-right: 140px;
 }
@@ -93,7 +93,71 @@ html, body
   top: 100px;
   right: -8px;
 }
+
+.navbar-telegram:hover {
+  display: block !important;
+  position: absolute;
+  float: right;
+  top: 100px;
+  right: -8px;
+}
+
+.navbar-telegram li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 /*END hover hiện div của icon tele header*/
+
+
+/*hover hiện div của icon EMAIL header*/
+.iconemail-header {
+  cursor: pointer;
+}
+
+.navbar-email {
+  display: none !important;
+  margin-top: -46px;
+  float: right;
+  margin-right: -18px;
+}
+
+.navbar-email .form-inline {
+  background-image: url(../image/Rectangle22.png);
+  width: 250px;
+  height: 260px;
+}
+
+.navbar-email ul li {
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.iconemail-header:hover + .navbar-email {
+  display: block !important;
+  position: absolute;
+  float: right;
+  top: 100px;
+  right: -8px;
+}
+
+.navbar-email:hover {
+  display: block !important;
+  position: absolute;
+  float: right;
+  top: 100px;
+  right: -8px;
+}
+
+.navbar-email li {
+  color: #FFFFFF;
+}
+
+.navbar-email li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/*END hover hiện div của icon EMAIL header*/
+
 
 
 /*PAGE NFT*/
