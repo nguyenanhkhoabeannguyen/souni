@@ -249,6 +249,10 @@ html, body
   margin-left: 60px;
 }
 
+.area-choose-character {
+  z-index: 400;
+}
+
 /*PLAY TO EARN*/
 
 .playtoearn {
