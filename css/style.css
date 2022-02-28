@@ -162,6 +162,10 @@ html, body
 
 /*PAGE NFT*/
 
+.content-wrapper {
+  position: relative;
+  z-index: 90;
+}
 
 .claim_content{
   text-align: center;
@@ -227,7 +231,7 @@ html, body
 /*Không gian character*/
 
 .character {
-  background-image: url(../image/background/Character_Bg\ 10.png);
+  background-image: url(../image/backgroundofcharacter/Character_Bg1.b568b977.png);
   padding-bottom: 10px;
 }
 
@@ -235,7 +239,12 @@ html, body
   cursor: pointer;
 }
 
+.character-video {
+  z-index: 300;
+}
+
 .character-video video {
+  
   margin-top: -100px;
   margin-left: 60px;
 }
@@ -249,6 +258,7 @@ html, body
 }
 
 .img-frames-character {
+  z-index: 300;
   margin-top: -50px;  
 }
 
