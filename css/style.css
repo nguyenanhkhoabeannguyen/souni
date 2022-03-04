@@ -337,18 +337,23 @@ html, body
 
 /* advantagefeatures */
 
-.advantagefeatures {
+.bg-advantage {
   background-image: url(../image/background/Asset\ 4\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.img-advantagefeatures img {
+.img-advantagefeatures-title{
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  width: 30%;
 }
 
-.title {
+.img-advantagefeatures img {
+  width: 50%;
+}
+
+.title-advantagefeatures {
   font-size: 40px;
   color: #FFFFFF;
   line-height: 40px;
@@ -356,40 +361,53 @@ html, body
   margin-bottom: 60px;
 }
 
-.img-shieldbackers img {
-  margin-top: 50px;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
-.content-shieldbackers p {
-  padding-top: 20px;
-  font-size: 20px;
+.advantagefeatures-items {
+  width: 50%;
+}
+
+.img-backers-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.backers-content p {
+  padding-top: 10px;
+  font-size: 25px;
   color: #FFFFFF;
   padding-bottom: 50px;
 }
 
-.area-logopartner img {
+.backers-items {
+  width: 25%;
+}
+
+
+.backers-items img{
   margin-top: 50px;
   margin-bottom: 50px;
-
   position: relative;
 }
 
-.area-logopartner img:hover {
+
+.backers-items img:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   transform: translateY(-9px);
 }
 
-.icon-footer {
-  margin-top: 120px;
-  margin-bottom: 130px;
+.footer-item a {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: 180px;
 }
 
-.img-icon-footer {
-  margin-right: 45px;
-}
-
-.img-icon-footer:hover {
+.footer-item a img:hover {
   transform: translateY(-9px);
   text-decoration: none;
-}
+} 
